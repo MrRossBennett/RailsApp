@@ -2,29 +2,10 @@
 @import 'base/base';
 @import 'neat';
 
-@import 'normalize';
-
 @import 'nav';
 
-
-body {
-  background: green;
-}
-
-button {
-  @include button;
-}
-
-section {
-  @include outer-container;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
-}
-
-
-
 .hero {
-  $hero-background: desaturate(darken($base-accent-color, 20), 30);
+  $hero-background: desaturate(lighten($base-accent-color, 20), 30);
   $hero-color: white;
 
   background: url(/images/lake-transparent.png);
