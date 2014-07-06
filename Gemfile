@@ -12,6 +12,7 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 gem 'refills'
+gem 'devise', '~> 3.2.4'
 
 group :development, :test do
   gem 'sqlite3'
