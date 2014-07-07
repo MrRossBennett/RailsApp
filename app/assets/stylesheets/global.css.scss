@@ -1,8 +1,8 @@
-@import 'bourbon';
-@import 'base/base';
-@import 'neat';
-
 @import 'normalize';
+
+@import 'bourbon';
+@import 'neat';
+@import 'base/base';
 
 @import 'nav';
 
@@ -64,4 +64,8 @@
 
 .wrap {
   @include outer-container;
+}
+
+.success {
+  @extend %flash-success;
 }
